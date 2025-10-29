@@ -2,7 +2,6 @@ import React from "react";
 import IncidentDashboard from "./pages/IncidentDashboard.tsx";
 import "./tailwind.css";
 import "./App.css";
-import { BoltIcon } from "./components/Icons";
 
 const App: React.FC = () => (
   <div className="min-h-screen bg-gray-50">
