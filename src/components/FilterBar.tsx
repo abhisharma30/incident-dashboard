@@ -1,4 +1,3 @@
-// src/FilterBar.tsx
 import React from "react";
 
 const severities = ["", "Low", "Medium", "High", "Critical"];

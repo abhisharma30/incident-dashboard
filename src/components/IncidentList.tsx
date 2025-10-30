@@ -1,4 +1,3 @@
-// src/IncidentList.tsx
 import React from 'react';
 import IncidentRow from '../components/IncidentRow';
 import IncidentRowSkeleton from '../components/IncidentRowSkeleton';

@@ -1,8 +1,8 @@
 export function getInitials(name: string): string {
   const parts = name.trim().split(/\s+/);
-  const first = parts[0]?.[0] ?? '';
-  const last = parts[1]?.[0] ?? '';
-  return (first + last).toUpperCase() || (name[0]?.toUpperCase() ?? '?');
+  const first = parts[0]?.[0] ?? "";
+  const last = parts[1]?.[0] ?? "";
+  return (first + last).toUpperCase() || (name[0]?.toUpperCase() ?? "?");
 }
 
 export function timeAgo(iso: string): string {
@@ -18,4 +18,3 @@ export function timeAgo(iso: string): string {
   const d = Math.floor(h / 24);
   return `${d}d ago`;
 }
-

@@ -1,4 +1,3 @@
-// src/IncidentRow.tsx
 import React, { useState } from "react";
 import { acknowledgeIncident, resolveIncident } from "../api/api";
 import type { Incident } from "../types/types";

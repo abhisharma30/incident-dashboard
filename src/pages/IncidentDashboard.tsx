@@ -1,4 +1,3 @@
-// src/IncidentDashboard.tsx
 import React, { useEffect, useState, useCallback } from "react";
 import { fetchIncidents } from "../api/api";
 import { subscribeToIncidents } from "../helpers/websocket";

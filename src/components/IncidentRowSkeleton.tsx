@@ -1,4 +1,3 @@
-// src/IncidentRowSkeleton.tsx
 import React from "react";
 
 const IncidentRowSkeleton: React.FC = () => {
